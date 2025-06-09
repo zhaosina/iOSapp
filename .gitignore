@@ -1,0 +1,40 @@
+# Python virtual environments
+env/
+venv/
+.env
+.venv
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django database
+db.sqlite3
+
+# Django migrations (optional)
+# Ignore all migrations except __init__.py
+/apps/*/migrations/*
+!/apps/*/migrations/__init__.py
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and temp files
+*.log
+*.pid
+*.swp
+
+# Test and coverage
+.tox/
+.coverage
+.pytest_cache/
+
+# Others
+*.egg-info/
+dist/
+build/
